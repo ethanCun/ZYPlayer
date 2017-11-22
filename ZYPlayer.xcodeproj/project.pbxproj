@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0607A2501FC50E2A00D6D116 /* ZYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0607A24B1FC50E2A00D6D116 /* ZYModel.m */; };
+		0607A2511FC50E2A00D6D116 /* ZYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0607A24E1FC50E2A00D6D116 /* ZYPlayerView.m */; };
+		0607A2521FC50E2A00D6D116 /* ZYPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0607A24F1FC50E2A00D6D116 /* ZYPlayerView.xib */; };
+		06BB70E91FC3CD1C00911814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BB70E81FC3CD1C00911814 /* main.m */; };
+		06BB70F41FC3CD1C00911814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BB70F31FC3CD1C00911814 /* Assets.xcassets */; };
+		06BB70F71FC3CD1C00911814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BB70F51FC3CD1C00911814 /* LaunchScreen.storyboard */; };
+		06BB71521FC4148000911814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BB71431FC4148000911814 /* AppDelegate.m */; };
+		06BB71531FC4148000911814 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BB71451FC4148000911814 /* NextViewController.m */; };
+		06BB71541FC4148000911814 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BB71471FC4148000911814 /* RootViewController.m */; };
+		06BB71551FC4148000911814 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BB71481FC4148000911814 /* RootViewController.xib */; };
+		06EBDE4D1FC5044A00E7A91D /* ZYPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EBDE4C1FC5044A00E7A91D /* ZYPlayViewController.m */; };
+		94192614DBF4BEEC4AEFA1A0 /* libPods-ZYPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3700DECBEF4414FBFD827A /* libPods-ZYPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0607A24A1FC50E2A00D6D116 /* ZYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYModel.h; sourceTree = "<group>"; };
+		0607A24B1FC50E2A00D6D116 /* ZYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYModel.m; sourceTree = "<group>"; };
+		0607A24C1FC50E2A00D6D116 /* ZYPlayer.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPlayer.pch; sourceTree = "<group>"; };
+		0607A24D1FC50E2A00D6D116 /* ZYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPlayerView.h; sourceTree = "<group>"; };
+		0607A24E1FC50E2A00D6D116 /* ZYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPlayerView.m; sourceTree = "<group>"; };
+		0607A24F1FC50E2A00D6D116 /* ZYPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYPlayerView.xib; sourceTree = "<group>"; };
+		06BB70E41FC3CD1C00911814 /* ZYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BB70E81FC3CD1C00911814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06BB70F31FC3CD1C00911814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06BB70F61FC3CD1C00911814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06BB70F81FC3CD1C00911814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BB71421FC4148000911814 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06BB71431FC4148000911814 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06BB71441FC4148000911814 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		06BB71451FC4148000911814 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		06BB71461FC4148000911814 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		06BB71471FC4148000911814 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		06BB71481FC4148000911814 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		06EBDE4B1FC5044A00E7A91D /* ZYPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPlayViewController.h; sourceTree = "<group>"; };
+		06EBDE4C1FC5044A00E7A91D /* ZYPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPlayViewController.m; sourceTree = "<group>"; };
+		4E401C3B8FD55A38C252CF12 /* Pods-ZYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYPlayer/Pods-ZYPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		5E3700DECBEF4414FBFD827A /* libPods-ZYPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD8F245DDF6271E79C28E86 /* Pods-ZYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYPlayer/Pods-ZYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06BB70E11FC3CD1C00911814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94192614DBF4BEEC4AEFA1A0 /* libPods-ZYPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0607A2491FC50E2A00D6D116 /* ZYPlayerTool */ = {
+			isa = PBXGroup;
+			children = (
+				0607A24A1FC50E2A00D6D116 /* ZYModel.h */,
+				0607A24B1FC50E2A00D6D116 /* ZYModel.m */,
+				0607A24C1FC50E2A00D6D116 /* ZYPlayer.pch */,
+				0607A24D1FC50E2A00D6D116 /* ZYPlayerView.h */,
+				0607A24E1FC50E2A00D6D116 /* ZYPlayerView.m */,
+				0607A24F1FC50E2A00D6D116 /* ZYPlayerView.xib */,
+			);
+			path = ZYPlayerTool;
+			sourceTree = "<group>";
+		};
+		06BB70DB1FC3CD1C00911814 = {
+			isa = PBXGroup;
+			children = (
+				0607A2491FC50E2A00D6D116 /* ZYPlayerTool */,
+				06BB70E61FC3CD1C00911814 /* ZYPlayer */,
+				06BB70E51FC3CD1C00911814 /* Products */,
+				E8D46F1F3FA99F55EA963E46 /* Pods */,
+				786F6E9F394C52360674AB62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06BB70E51FC3CD1C00911814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06BB70E41FC3CD1C00911814 /* ZYPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06BB70E61FC3CD1C00911814 /* ZYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				06BB71411FC4148000911814 /* Other */,
+				06BB70F31FC3CD1C00911814 /* Assets.xcassets */,
+				06BB70F51FC3CD1C00911814 /* LaunchScreen.storyboard */,
+				06BB70F81FC3CD1C00911814 /* Info.plist */,
+				06BB70E71FC3CD1C00911814 /* Supporting Files */,
+			);
+			path = ZYPlayer;
+			sourceTree = "<group>";
+		};
+		06BB70E71FC3CD1C00911814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06BB70E81FC3CD1C00911814 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06BB71411FC4148000911814 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				06EBDE4B1FC5044A00E7A91D /* ZYPlayViewController.h */,
+				06EBDE4C1FC5044A00E7A91D /* ZYPlayViewController.m */,
+				06BB71421FC4148000911814 /* AppDelegate.h */,
+				06BB71431FC4148000911814 /* AppDelegate.m */,
+				06BB71441FC4148000911814 /* NextViewController.h */,
+				06BB71451FC4148000911814 /* NextViewController.m */,
+				06BB71461FC4148000911814 /* RootViewController.h */,
+				06BB71471FC4148000911814 /* RootViewController.m */,
+				06BB71481FC4148000911814 /* RootViewController.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		786F6E9F394C52360674AB62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3700DECBEF4414FBFD827A /* libPods-ZYPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D46F1F3FA99F55EA963E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD8F245DDF6271E79C28E86 /* Pods-ZYPlayer.debug.xcconfig */,
+				4E401C3B8FD55A38C252CF12 /* Pods-ZYPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06BB70E31FC3CD1C00911814 /* ZYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BB70FB1FC3CD1C00911814 /* Build configuration list for PBXNativeTarget "ZYPlayer" */;
+			buildPhases = (
+				59011DB64C42A874B123ED96 /* [CP] Check Pods Manifest.lock */,
+				06BB70E01FC3CD1C00911814 /* Sources */,
+				06BB70E11FC3CD1C00911814 /* Frameworks */,
+				06BB70E21FC3CD1C00911814 /* Resources */,
+				D935E882AD96BC32537B0F60 /* [CP] Embed Pods Frameworks */,
+				153ED2D9208C37AF063A7C1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPlayer;
+			productName = ZYPlayer;
+			productReference = 06BB70E41FC3CD1C00911814 /* ZYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06BB70DC1FC3CD1C00911814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06BB70E31FC3CD1C00911814 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06BB70DF1FC3CD1C00911814 /* Build configuration list for PBXProject "ZYPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06BB70DB1FC3CD1C00911814;
+			productRefGroup = 06BB70E51FC3CD1C00911814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06BB70E31FC3CD1C00911814 /* ZYPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06BB70E21FC3CD1C00911814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BB70F71FC3CD1C00911814 /* LaunchScreen.storyboard in Resources */,
+				0607A2521FC50E2A00D6D116 /* ZYPlayerView.xib in Resources */,
+				06BB70F41FC3CD1C00911814 /* Assets.xcassets in Resources */,
+				06BB71551FC4148000911814 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153ED2D9208C37AF063A7C1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYPlayer/Pods-ZYPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59011DB64C42A874B123ED96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D935E882AD96BC32537B0F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYPlayer/Pods-ZYPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BB70E01FC3CD1C00911814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0607A2501FC50E2A00D6D116 /* ZYModel.m in Sources */,
+				0607A2511FC50E2A00D6D116 /* ZYPlayerView.m in Sources */,
+				06BB71521FC4148000911814 /* AppDelegate.m in Sources */,
+				06BB71531FC4148000911814 /* NextViewController.m in Sources */,
+				06BB71541FC4148000911814 /* RootViewController.m in Sources */,
+				06BB70E91FC3CD1C00911814 /* main.m in Sources */,
+				06EBDE4D1FC5044A00E7A91D /* ZYPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06BB70F51FC3CD1C00911814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06BB70F61FC3CD1C00911814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06BB70F91FC3CD1C00911814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06BB70FA1FC3CD1C00911814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06BB70FC1FC3CD1C00911814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD8F245DDF6271E79C28E86 /* Pods-ZYPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYPlayerTool/ZYPlayer.pch";
+				INFOPLIST_FILE = ZYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.ZYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06BB70FD1FC3CD1C00911814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E401C3B8FD55A38C252CF12 /* Pods-ZYPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYPlayerTool/ZYPlayer.pch";
+				INFOPLIST_FILE = ZYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.ZYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06BB70DF1FC3CD1C00911814 /* Build configuration list for PBXProject "ZYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BB70F91FC3CD1C00911814 /* Debug */,
+				06BB70FA1FC3CD1C00911814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06BB70FB1FC3CD1C00911814 /* Build configuration list for PBXNativeTarget "ZYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BB70FC1FC3CD1C00911814 /* Debug */,
+				06BB70FD1FC3CD1C00911814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06BB70DC1FC3CD1C00911814 /* Project object */;
+}
