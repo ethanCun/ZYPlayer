@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYPlayer"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A iOS video player"
 
   # This description is used to generate tags and improve search results.
